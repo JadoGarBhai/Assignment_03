@@ -1,0 +1,483 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    border-bottom: 2px solid whitesmoke;
+    height: 60px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.pic{
+    width: 70%;
+    margin: auto 0px;
+    padding-left: 50px;
+}
+.nav{
+    width: 30%;
+    align-items: flex-end;
+    margin: auto 0px;
+}
+
+.nav1{
+    display: inline-flex;
+    padding: 15px;
+}
+.nav2{
+    position: absolute;
+    left: 865px;
+    height: 54px;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+
+/* Box 1 */
+.bold{
+    position: absolute;
+    left: 19%;
+    top: 85px;
+    display: flexbox;
+    width: 60%;
+    border-style: none;
+    flex-wrap: wrap;
+    font-weight: 700;
+    font-size: 27px;
+    text-align: center;
+}
+
+/* Box 2 */
+.box2{
+    display: flexbox;
+    position: absolute;
+    left: 24%;
+    top: 300px;
+    width: 50%;
+    border-style: none;
+    flex-wrap: wrap;
+    font-weight: 300;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+/* Yellow Picture  */
+.yellow{
+    display: flexbox;
+    position: absolute;
+    left: 0%;
+    top: 390px;
+    width: 100%;
+    height: 710px;
+    border-style: none;
+}
+.yp{
+    width: 100%;
+    height: 705px;
+}
+
+
+/* Group 1 */
+.group1{
+    display: flexbox;
+    position: absolute;
+    border: 2px solid black;
+    left: 24%;
+    top: 1130px; 
+    width: 52%;
+}
+
+.gm{
+    display: flexbox;
+    position: absolute;
+    left: 3px;
+    top: 20px;
+    border-style: none;
+}
+.gm1{
+    display: flexbox;
+    position: absolute;
+    top: 1px;
+    left: 0px;
+}
+.gm2{
+    display: flexbox;
+    position: absolute;
+    top: 2px;
+    left: 80px;
+}
+.gm3{
+    display: flexbox;
+    position: absolute;
+    top: 1px;
+    left: 550px;
+}
+
+/* Paragraph 1 */
+.para1{
+    /* border: 2px solid black; */
+    display: flexbox;
+    position: absolute;
+    top: 110px;
+    font-weight: 400;
+    font-size: larger;
+    border-style: none;
+}
+
+
+/* H3-1 */
+.h3-1{
+    /* border: 2px solid black; */
+    display: flexbox;
+    position: absolute;
+    top: 315px;
+    border-style: none;
+}
+.para2{
+    /* border: 2px solid black; */
+    display: flexbox;
+    position: absolute;
+    top: 360px;
+    font-weight: 400;
+    font-size: larger;
+    border-style: none;
+}
+
+
+/* Second Picture */
+.sec-pic{
+    /* border: 2px solid black; */
+    display: flexbox;
+    position: absolute;
+    top: 1685px;
+    left: 20.5%;
+    width: 800px;
+    height: 500px;
+    border-style: none;
+}
+.secpic{
+    display: flexbox;
+    position: absolute;
+    width: 100%;
+    height: 450px;
+}
+.secfig{
+    display: flex;
+    position: absolute;
+    top: 455px;
+    left: 100px;
+    width: 600px;
+    text-align: center;
+}
+
+/* Group 2 */
+.group2{
+    display: flexbox;
+    position: absolute;
+    left: 24%;
+    top: 2225px; 
+    width: 52%;
+}
+.para2-1{
+    display: flexbox;
+    position: absolute;
+    /* border: 2px solid black; */
+    font-weight: 400;
+    font-size: larger;
+    border-style: none;
+}
+.aa{
+    display: flex;
+    position: absolute;
+    /* border: 2px solid black; */
+    width: 100%;
+    font-weight: 400;
+    font-size: larger;
+    top: 200px;
+    border-style: none;
+}
+.a{
+    position: absolute;
+    left: 25px;
+}
+.b{
+    position: absolute;
+    top: 80px;
+    left: 25px;
+    width: 100%;
+}
+.c{
+    position: absolute;
+    width: 100%;
+    left: 25px;
+    top: 140px;
+}
+
+/* Para 2-2 */
+.para2-2{
+    position: absolute;
+    display: flex;
+    top: 400px;
+    font-weight: 400;
+    font-size: larger;
+}
+
+/* Para 2-3 */
+.para2-3{
+    position: absolute;
+    display: flex;
+    top: 475px;
+    font-weight: 400;
+    font-size: larger;
+}
+
+
+/* Group 2 Picture  */
+.g2-pic{
+    position: absolute;
+    display: flex;
+    top: 575px;
+    width: 733px;
+    height: 73px;
+    left: 0%;
+}
+
+
+/* Group 2 Words  */
+.words{
+    position: absolute;
+    display: flex;
+    top: 675px;
+    font-weight: 400;
+    font-size: larger;
+}
+
+
+/* Dash Border */
+.dash{
+    display: flexbox;
+    position: absolute;
+    border: 1px dashed black;
+    left: 24%;
+    top: 2950px; 
+    width: 55%;
+}
+
+.d-pic{
+    position: absolute;
+    display: flexbox;
+    top: 45px;
+    height: 75px;
+    width: 75px;
+}
+
+/* D-Para */
+.d-para{
+    display: flexbox;
+    position: absolute;
+    top: 35px;
+    width: 650px;
+    left: 90px;
+    font-size: large;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+
+
+/* Eye Part  */
+.eye{
+    display: flexbox;
+    position: absolute;
+    border: 2px solid black;
+    left: 0%;
+    top: 3270px; 
+    width: 100%;
+}
+
+
+/* Eye Pic  */
+.e-pic{
+    display: flexbox;
+    position: absolute;
+    left: 50%;
+    top: -30px;
+}
+
+
+/* Picture Section  */
+.h2{
+    display: flexbox;
+    position: absolute;
+    left: 480px;
+    top: 3375px; 
+    font-weight: 600;
+    font-size: 45px;
+}
+.pic1-3{
+    display: flexbox;
+    position: absolute;
+    width: 75%;
+    top: 3460px;
+    left: 160px;
+}
+.cs{
+    position: absolute;
+    width: 304px;
+    height: 176px;
+}
+.size{
+    position: absolute;
+    width: 262px;
+    text-align: center;
+}
+.size1{
+    position: absolute;
+    left: 15px;
+    top: 190px;
+}
+
+.ps2{
+    position: absolute;
+    left: 350px;
+    top: 0px;
+}
+.size2{
+    position: absolute;
+    left: 370px;
+    top: 190px;
+}
+.ps3{
+    position: absolute;
+    left: 700px;
+    top: 0px;
+}
+.size3{
+    position: absolute;
+    width: 262px;
+    top: 190px;
+    margin-left: 723px;
+    text-align: center;
+}
+
+
+/* Picture 3-6 */
+.pic3-6{
+    display: flexbox;
+    position: absolute;
+    width: 75%;
+    top: 3730px;
+    left: 160px;
+}
+.cs0{
+    position: absolute;
+    width: 304px;
+    height: 176px;
+}
+.size0{
+    position: absolute;
+    width: 262px;
+    text-align: center;
+}
+.size01{
+    position: absolute;
+    left: 15px;
+    top: 190px;
+}
+.ps5{
+    position: absolute;
+    left: 350px;
+    top: 0px;
+}
+.size02{
+    position: absolute;
+    left: 370px;
+    top: 190px;
+}
+.ps6{
+    position: absolute;
+    left: 700px;
+    top: 0px;
+}
+.size03{
+    position: absolute;
+    width: 262px;
+    top: 190px;
+    margin-left: 723px;
+    text-align: center;
+}
+
+
+/* Signup Box  */
+.box4{
+    display: flexbox;
+    position: absolute;
+    border: 2px solid black;
+    top: 4060px;
+    left: 400px;
+    width: 640px;
+}
+.box5{
+    display: flexbox;
+    position: absolute;
+    border: 1px solid black;
+    left: -2px;
+    width: 640px;
+    height: 313px;
+}
+.h4{
+    display: flexbox;
+    position: absolute;
+    font-size: 36px;
+    font-weight: 700;
+    left: 100px;
+    top: 75px;
+}
+.box-para{
+    position: absolute;
+    text-align: center;
+    /* border: 1px solid black; */
+    width: 520px;
+    top: 125px;
+    left: 60px;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.input{
+    position: absolute;
+    border: 1px solid black;
+    top: 210px;
+    left: 85px;
+    height: 54px;
+    width: 360px;
+}
+::placeholder{
+    font-size:  larger;
+    font-weight: 400;
+}
+.btn{
+    position: absolute;
+    border: 1px solid black;
+    top: 210px;
+    left: 442px;
+    height: 54px;
+    width: 120px;
+    font-weight: 200;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+/* Footer Image  */
+.f-img{
+    position: absolute;
+    top: 4500px;
+    width: 100%;
+    height: 464px;
+}
